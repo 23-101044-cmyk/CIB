@@ -10,7 +10,7 @@
 }
 
 body{
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color: white;
 
@@ -27,4 +27,13 @@ main{
     width: 100vw;
     height: 834.97px;
     
+}
+.menus1{
+    display: inline-flex;
+height: 87px;
+width: 100%;
+padding: 28.625px 553px 28.375px 158px;
+align-items: center;
+background-color: aqua;
+margin-top: 66.9px;
 }

@@ -11,7 +11,7 @@ const home = () => {
             <Nav />
             <Header />
             <main>
-                
+                <div className='menus1'></div>
             </main>
             <Footer />
 
