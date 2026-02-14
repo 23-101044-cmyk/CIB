@@ -32,12 +32,11 @@ main{
 
 .s2cont{
     width: 1109.971px;
-    height: 552.63px;
+height: 679.969px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0);
     margin-bottom: 100px;
 }
 
@@ -53,12 +52,15 @@ line-height: 40px; /* 173.16% */
 .s2cards{
     width: 100%;
 height: 401.99px;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
 }
 .menus1{ 
     display: inline-flex;
     height: 87px;
     width: 100%;
-        padding: 0 553px 0 158px;
     align-items: center;
     margin-top: 66.9px;
     background: #FFF;
@@ -67,8 +69,7 @@ box-shadow: 1px 1px 12px 0 rgba(51, 51, 51, 0.10);
 .menudiv{
     display: flex;
     height: 30px;
-    padding: 7.5px 103.5px 8.5px 0;
-    align-items: flex-start;
+    margin-left: 158px;
     display: flex;
     justify-content: space-between;
 
@@ -80,6 +81,7 @@ box-shadow: 1px 1px 12px 0 rgba(51, 51, 51, 0.10);
     display: flex;
     height: 415.99px;
     justify-content: center;
+    gap: 40px;
     align-items: center;
     flex-direction: column;
 

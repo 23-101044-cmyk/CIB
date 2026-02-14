@@ -59,6 +59,7 @@ const home = () => {
 
                 <section className='s2'>
                     <article className='s2cont'>
+                        <Orangetext text5="Learning Center"/>
                         <h5 className='s2sub'>Learn more about banking and your finances</h5>
                         <div className='s2cards'>
                             <S2cards 
