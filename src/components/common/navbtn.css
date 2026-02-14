@@ -10,4 +10,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 14px; /* 93.96% */
+    transition: all 0.3s ease;
+}
+
+.navbtn:hover{
+    font-weight: 600;
+    text-decoration: underline;
 }

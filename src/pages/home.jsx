@@ -10,6 +10,9 @@ const home = () => {
 
             <Nav />
             <Header />
+            <main>
+                
+            </main>
             <Footer />
 
 

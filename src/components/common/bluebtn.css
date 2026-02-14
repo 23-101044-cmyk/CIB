@@ -1,0 +1,17 @@
+.btn{
+    color: #FFF;
+font-family: 'inter';
+font-size: 14.9px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px; /* 93.96% */
+padding: 16.5px 24px;
+border-radius: 6px;
+background: #1858A8;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}

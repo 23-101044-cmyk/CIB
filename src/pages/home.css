@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
 
 *{
     margin: 0;
@@ -9,4 +14,17 @@ body{
     height: auto;
     background-color: white;
 
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.s2{
+    width: 100vw;
+    height: 834.97px;
+    
 }

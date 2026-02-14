@@ -1,3 +1,4 @@
+
 header{
     width: 100vw;
     height: 100vh;
@@ -16,6 +17,24 @@ header{
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    background-color: antiquewhite;
     margin-left: 172px;
+}
+
+h2{
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 37.3px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.headertext{
+    color: #FFF;
+font-family: 'inter';
+font-size: 23.1px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 155.845% */
+width: 100%;
 }
