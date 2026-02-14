@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    width: 100vw;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+}
