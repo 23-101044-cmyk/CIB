@@ -1,8 +1,13 @@
-.navcont{
-    width: 60vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+@font-face {
+    font-family: 'inter';
+    src: url(../../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.navbtn{
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 14.9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px; /* 93.96% */
 }

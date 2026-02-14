@@ -1,3 +1,4 @@
+
 nav{
     display: flex;
     width: 100vw;
@@ -5,4 +6,21 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 53px;
+    background: #032D62;
+}
+
+.logo1{
+    width: 109px;
+height: 33px;
+background-image: url(../../assets/logo1.png);
+background-size: cover;
+}
+
+.navcont{
+    width: 60vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }

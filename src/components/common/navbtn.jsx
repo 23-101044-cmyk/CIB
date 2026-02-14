@@ -1,11 +1,10 @@
 import React from 'react';
+import './navbtn.css';
 
-const navbtn = () => {
-    return ( 
-        <div className='navcont'>
+const navbtn = ({ text }) => {
+  return (
+    <h6 className="navbtn">{text}</h6>
+  );
+};
 
-        </div>
-     );
-}
- 
 export default navbtn;
