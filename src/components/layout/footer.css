@@ -1,0 +1,153 @@
+@font-face {
+    font-family: in;
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 392.93px;
+    padding-bottom: 5652.609px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #1D3766;
+
+}
+.footer1{
+    width:100%;
+    height:320.94px;
+    background: #1D3766;
+}
+.footer1pic{
+    width:100%;
+    height:320.94px;
+     background-image: url(../assets/footerBackground\ Images.png);
+     align-items: center;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.divf1{
+    width: 1140px;
+    height: 255.94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.divf2{
+    height: 127.94px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px 15px;
+    display: flex;
+    width: 1110px;
+    padding-bottom: 71px;
+    border-bottom: 1px solid #004A88;
+}
+.logofooter{
+    width: 109px;
+    height: 33px;
+    background-image: url(../assets/logoImage.png);
+}
+.linksdiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 540px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.fdiv3{
+    display: inline-flex;
+height: 40px;
+padding: 0 0.006px 0 64.547px;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 33.438px;
+
+}
+.googleplay{
+    width: 134px;
+height: 40px;
+background-image: url(../assets/googleplayIcon.png);
+}
+.applepay{
+    width: 118px;
+height: 40px;
+background-image: url(../assets/appstoreIcon.png);
+}
+.creditsdiv{
+    width: 919.987px;
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.link-text {
+
+    color: #FFF;
+    font-family: 'in';
+    font-size: 12.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 253.968% */
+    margin: 2px 0;
+    transition: color 0.3s;
+}
+.link-text:hover {
+  color:#F58420;       
+}
+.cdiv1{
+    display: flex;
+    width: 491.8px;
+    height: 32px;
+    padding-right: 30.831px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.creditstext{
+    color: #FFF;
+    font-family: 'in';
+    font-size: 12.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 253.968% */
+}
+.footerdiv2{
+    width: 267px;
+    height: 32px;
+    align-items: flex-start;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.socials{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+.face{background-image: url(../assets/faceIcon.svg);}
+.twi{background-image: url(../assets/twitterIcon\ [Layer_1].svg);}
+.in{background-image: url(../assets/inIcon.svg);}
+.insta{background-image: url(../assets/instaIcon.svg);}
+.yout{background-image: url(../assets/youtubeIcon.svg);}
+.whats{background-image: url(../assets/whatsIcon\ [Layer_1].svg);}
+.fdiv2{
+    display: flex;
+width: 1425px;
+padding: 19.5px 158.594px 20.49px 973.406px;
+justify-content: flex-end;
+align-items: center;
+background: #004A88;
+}
