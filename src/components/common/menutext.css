@@ -1,0 +1,14 @@
+.menutext {
+    color: #333;
+    font-family: 'inter';
+    font-size: 14.9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    transition: color 0.3s ease; 
+}
+
+.menutext:hover {
+    color: #F58420; 
+    cursor: pointer; 
+}

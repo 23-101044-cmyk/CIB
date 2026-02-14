@@ -1,0 +1,26 @@
+.applydiv{
+    display: flex;
+    width: 279.99px;
+    height: 133px;
+justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+    border-radius: 6px;
+border-top: 1px solid rgba(231, 231, 231, 0.60);
+background: #FFF;
+box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.10);
+}
+.iconapply{
+    width: 45.979px;
+    height: 46px;
+    padding-left: 34px;
+}
+.applytext{
+    color: #1858A8;
+    font-family: 'inter';
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 125% */
+}
