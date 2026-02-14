@@ -7,10 +7,10 @@ footer{
     display: flex;
     width: 100%;
     height: 392.93px;
-    padding-bottom: 5652.609px;
     flex-direction: column;
     align-items: flex-start;
     background: #1D3766;
+    justify-content: space-between;
 
 }
 .footer1{
@@ -145,9 +145,22 @@ background-image: url(../assets/appstoreIcon.png);
 .whats{background-image: url(../assets/whatsIcon\ [Layer_1].svg);}
 .fdiv2{
     display: flex;
-width: 1425px;
-padding: 19.5px 158.594px 20.49px 973.406px;
-justify-content: flex-end;
-align-items: center;
-background: #004A88;
+    width: 100%;
+    align-items: center;
+    background: #004A88;
+   height: 71.99px;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+.copyright{
+    color: #B8BABC;
+font-family: 'in';
+font-size: 12.6px;
+font-style: normal;
+font-weight: 400;
+margin-right: 150px;
+line-height: 32px; /* 253.968% */
+
 }

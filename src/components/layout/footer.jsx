@@ -13,22 +13,23 @@ const footer = () => {
                             <div className='logofooter'></div>
                             <div className="linksdiv">
                                 <div className="column">
-                                    <Navbtn text="FAQS"/>
-                                    <p className="link-text">Learning Center</p>
-                                    <p className="link-text">Fees & Charges</p>
-                                    <p className="link-text">Terms & Conditions</p>
+                                    <Navbtn text="FAQs"/>
+                                    <Navbtn text="Learning Center"/>
+                                    <Navbtn text="Fees & Charges"/>
+                                    <Navbtn text="Terms & Conditions"/>
                                 </div>
                                 <div className="column">
-                                    <p className="link-text">Local</p>
-                                    <p className="link-text">Abroad</p>
-                                    <p className="link-text">Business</p>
-                                    <p className="link-text">Corporate</p>
+                                    <Navbtn text="Local"/>
+                                    <Navbtn text="Abroad"/>
+                                    <Navbtn text="Business"/>
+                                    <Navbtn text="Corporate"/>
                                 </div>
                                 <div className="column">
-                                    <p className="link-text">Careers</p>
-                                    <p className="link-text">Why CIB</p>
-                                    <p className="link-text">Email us</p>
-                                    <p className="link-text">System Status</p>
+                                    <Navbtn text="Careers"/>
+                                    <Navbtn text="Why CIB"/>
+                                    <Navbtn text="Email us"/>
+                                    <Navbtn text="System Status"/>
+                            
                                 </div>
                             </div>
                             <div className='fdiv3'>
@@ -39,10 +40,11 @@ const footer = () => {
                         </div>
                         <div className='creditsdiv'>
                             <div className='cdiv1'>
-                                <p className="link-text">CBE Approvals</p>
-                                <p className="link-text">Cookie Policy</p>
-                                <p className="link-text">Privacy Policy</p>
-                                <p className="link-text">User Agreements</p>
+                                <Navbtn text="CBE Approvals"/>
+                                <Navbtn text="Cookie Policy"/>
+                                <Navbtn text="Privacy Policy"/>
+                                <Navbtn text="User Agreements"/>
+                         
                             </div>
                             <div className='footerdiv2'>
                                 <div className='socials face'></div>
@@ -54,8 +56,11 @@ const footer = () => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
-               
+               <div className='fdiv2'>
+                    <h1 className='copyright'>Copyright © 2025 Commercial International Bank</h1>
+               </div>
             </div>
         </div>
     </footer>
