@@ -7,15 +7,16 @@ import Footer from './../components/layout/footer';
 const home = () => {
     return ( 
         <body>
-
             <Nav />
             <Header />
             <main>
-                
+                <section className='s2'>
+                    <article className='s2cont'>
+
+                    </article>
+                </section>
             </main>
             <Footer />
-
-
         </body>
      );
 }
