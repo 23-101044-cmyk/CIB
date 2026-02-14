@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css'
+import Navbtn from '../common/navbtn';
 
 const footer = () => {
     return ( <>
@@ -12,7 +13,7 @@ const footer = () => {
                             <div className='logofooter'></div>
                             <div className="linksdiv">
                                 <div className="column">
-                                    <p className="link-text">FAQs</p>
+                                    <Navbtn text="FAQS"/>
                                     <p className="link-text">Learning Center</p>
                                     <p className="link-text">Fees & Charges</p>
                                     <p className="link-text">Terms & Conditions</p>
