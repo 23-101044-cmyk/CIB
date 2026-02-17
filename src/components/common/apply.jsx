@@ -1,11 +1,11 @@
 import React from 'react';
 import './apply.css'
 
-const apply = ({icon1, text7}) => {
+const apply = (props) => {
     return ( <>
     <div className='applydiv'>
-        <img className='iconapply' src={icon1} alt="" />
-        <h1 className='applytext'>{text7}</h1>
+        <img className='iconapply' src={props.icon1} alt="" />
+        <h1 className='applytext'>{props.text7}</h1>
         
     </div>
     </> );

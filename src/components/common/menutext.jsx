@@ -1,10 +1,10 @@
 import React from 'react';
 import './menutext.css'
 
-const menutext = ({text3}) => {
+const menutext = (props) => {
     return ( <>
 
-    <p className="menutext">{text3}</p>
+    <p className="menutext">{props.text3}</p>
 
     </> );
 }

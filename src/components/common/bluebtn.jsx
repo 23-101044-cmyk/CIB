@@ -1,9 +1,9 @@
 import React from 'react';
 import './bluebtn.css'
 
-const bluebtn = ({ text2 }) =>{
+const bluebtn = (props) =>{
     return ( 
-        <div className='btn'>{text2}</div>
+        <div className='btn'>{props.text2}</div>
      );
 }
  

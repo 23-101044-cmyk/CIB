@@ -66,18 +66,21 @@ const home = () => {
                             image={card1}
                             title="Buying and making a home"
                             text6="Buying a home can be an emotional process, but it's important to approach it logically"
+                            cardstyle="cardcont2"
                             />
 
                             <S2cards 
                             image={card2}
                             title="Traveling on a budget"
                             text6="So for all of you travelers, take a vacation without spending a fortune with these helpful tips and tricks:"
+                            cardstyle="cardcont3"
                             />
 
                             <S2cards 
                             image={card3}
                             title="University life tips"
                             text6="The impact of a good education can be transformative."
+                            cardstyle="cardcont4"
                             />
                         </div>
                         <Bluebtn text2="View more"/>

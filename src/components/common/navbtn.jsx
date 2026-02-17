@@ -1,9 +1,9 @@
 import React from 'react';
 import './navbtn.css';
 
-const navbtn = ({ text }) => {
+const navbtn = (props) => {
   return (
-    <h6 className="navbtn">{text}</h6>
+    <h6 className="navbtn">{props.text}</h6>
   );
 };
 

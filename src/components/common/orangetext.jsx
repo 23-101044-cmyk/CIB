@@ -1,9 +1,9 @@
 import React from 'react';
 import './orangetext.css'
 
-const orangetext = ({text5}) => {
+const orangetext = (props) => {
     return ( <>
-     <p className="orangetitle">{text5}</p>
+     <p className="orangetitle">{props.text5}</p>
     </> );
 }
  
